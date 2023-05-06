@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressActivity"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_gravity="top"
+        android:max="100"
+        android:progress="0"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/defaultService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="default service" />
+
+    <Button
+        android:id="@+id/foregroundService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="foreground service" />
+
+    <Button
+        android:id="@+id/intentService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="intent service" />
+
+    <Button
+        android:id="@+id/jobScheduler"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="job scheduler" />
+
+    <Button
+        android:id="@+id/jobIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="job intent service" />
+
+    <Button
+        android:id="@+id/alarmManager"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="alarm manager" />
+
+    <Button
+        android:id="@+id/workManager"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="work manager" />
+
+</LinearLayout>
